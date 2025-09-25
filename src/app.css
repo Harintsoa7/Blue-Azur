@@ -10,6 +10,8 @@
   background-position: center;
 }
 body{
+
   position: relative;
+  scroll-behavior: smooth;
   
 }
