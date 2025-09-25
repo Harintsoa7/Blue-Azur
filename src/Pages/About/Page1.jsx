@@ -3,10 +3,16 @@ import SocialMedia from "../../Components/SocialMedia";
 import slider1 from "../../assets/Slider/slider1.png";
 import slider2 from "../../assets/Slider/slider2.png";
 import ellipse from "../../assets/Ellipse.png";
+import bg from "../../assets/Background/bg.jpg"
 export default function Apropos() {
   return (
     <>
-      <div className=" relative bg-stone-950/70 flex items-center text-stone-50 hero bg-[url('src/assets/Background/bg.jpg')] bg-cover bg-center bg-gradient-to-r from-blue-500 to-green-500 bg-blend-overlay aspect-[3553/2046] overflow-hidden w-full pt-[10px]   px-[12.17vw]">
+      <div
+        className=" relative bg-stone-950/70 flex items-center text-stone-50 hero  bg-cover bg-center bg-gradient-to-r from-blue-500 to-green-500 bg-blend-overlay aspect-[3553/2046] overflow-hidden w-full pt-[10px]   px-[12.17vw]"
+        style={{
+          backgroundImage: ` url(${bg})`,
+        }}
+      >
         <Navbar />
         <SocialMedia />
         <div className="flex items-end justify-between  w-full">
