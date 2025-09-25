@@ -8,7 +8,7 @@ export default function Navbar() {
         <img src={logo} className="w-[7vw] h-auto" alt="logo" />
       </div>
       <div className=" text-[1vw] flex items-center justify-between gap-[1vw] h-full   ">
-        <nav className=" flex items-center  border-1  text-[#FFFFFF] font-bold  h-full relative w-[20vw] ">
+        <nav className=" flex items-center   text-[#FFFFFF] font-bold  h-full relative w-[20vw] ">
           <ul className="flex w-full justify-between gap-[1vw]    ">
             <li className="   ">
               <a href="#apropos" className=" h-full ">
