@@ -7,11 +7,11 @@ export default function Navbar() {
       <div className="logo ">
         <img src={logo} className="w-[7vw] h-auto" alt="logo" />
       </div>
-      <div className=" text-[1vw] flex items-center justify-between gap-[1vw] h-full bg-green-500   ">
-        <nav className=" flex items-center bg-red-400 border-1 border-amber-400  text-[#FFFFFF] font-bold  h-full relative w-[20vw] ">
+      <div className=" text-[1vw] flex items-center justify-between gap-[1vw] h-full   ">
+        <nav className=" flex items-center  border-1  text-[#FFFFFF] font-bold  h-full relative w-[20vw] ">
           <ul className="flex w-full justify-between gap-[1vw]    ">
             <li className="   ">
-              <a href="#apropos" className=" border-red-400 h-full ">
+              <a href="#apropos" className=" h-full ">
                 À propos
               </a>
             </li>
