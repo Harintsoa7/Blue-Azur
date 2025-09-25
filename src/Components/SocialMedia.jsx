@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import facebook from "../assets/Logo/facebook.png";
 import youtube from "../assets/Logo/youtube.png";
-import twitter from "../assets/Logo/twitter.png";
+import twitter from "../assets/Logo/Twitter.png";
 import instagram from "../assets/Logo/instagram.png";
 
 const socialLinks = [
