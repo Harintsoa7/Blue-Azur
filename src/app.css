@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.resa {
+  background-image: linear-gradient(
+      90deg,
+      #4097ff 0%,
+      rgba(115, 115, 115, 0) 30%
+    ),
+    url("src/assets/bg-5.jpg");
+  background-size: cover;
+  background-position: center;
+}
