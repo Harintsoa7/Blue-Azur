@@ -3,7 +3,7 @@ import logo from "../assets/Logo/logo-app.png";
 
 export default function Navbar() {
   return (
-    <header className=" absolute aspect-[2843/181] top-[2vw] left-[12vw] right-[12vw] flex  justify-between items-center border-b-[0.5vw] border-stone-50/50 ">
+    <header className=" z-100 fixed bg-black/50 aspect-[2843/181] top-[2vw] left-[12vw] right-[12vw] flex  justify-between items-center border-b-[0.5vw] border-stone-50/50 ">
       <div className="logo ">
         <img src={logo} className="w-[7vw] h-auto" alt="logo" />
       </div>

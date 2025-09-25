@@ -1,4 +1,4 @@
-import Navbar from "../../Components/Navbar";
+
 import SocialMedia from "../../Components/SocialMedia";
 import slider1 from "../../assets/Slider/slider1.png";
 import slider2 from "../../assets/Slider/slider2.png";
@@ -13,7 +13,7 @@ export default function Apropos() {
           backgroundImage: ` url(${bg})`,
         }}
       >
-        <Navbar />
+        
         <SocialMedia />
         <div className="flex items-end justify-between  w-full">
           <div className=" flex flex-col gap-[8vw] ">
